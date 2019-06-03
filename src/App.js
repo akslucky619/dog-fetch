@@ -6,7 +6,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      getImage: ""
+      getImage: "",
+      loading: false
     };
   }
   componentGenerate = () => {
@@ -16,6 +17,7 @@ class App extends Component {
       .catch(e => {
         console.log(e);
       });
+      this.setState
   };
 
   render() {
@@ -23,6 +25,7 @@ class App extends Component {
       <div className="card">
         <div className="card-image">
           <h1>DOG GENERTOR</h1>
+          <h1>DOG in reverse is GOD</h1>
 
             <img src={this.state.getImage} alt="" />
           
