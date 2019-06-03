@@ -17,7 +17,6 @@ class App extends Component {
       .catch(e => {
         console.log(e);
       });
-      this.setState
   };
 
   render() {
@@ -26,7 +25,7 @@ class App extends Component {
         <div className="card-image">
           <h1>DOG GENERTOR</h1>
           <h1>DOG in reverse is GOD</h1>
-          <h1>Love the Dogs</h1>
+          <h1>Worship the Dogs</h1>
 
             <img src={this.state.getImage} alt="" />
           
