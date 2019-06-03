@@ -26,6 +26,7 @@ class App extends Component {
         <div className="card-image">
           <h1>DOG GENERTOR</h1>
           <h1>DOG in reverse is GOD</h1>
+          <h1>Love the Dogs</h1>
 
             <img src={this.state.getImage} alt="" />
           
